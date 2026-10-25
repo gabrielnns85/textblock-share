@@ -1,11 +1,23 @@
 * { box-sizing: border-box; }
 body { margin: 0; font-family: system-ui, sans-serif; background: #fafafa; color: #222; }
-main, .login { max-width: 640px; margin: 0 auto; padding: 1.5rem 1rem; }
+main { max-width: 1400px; margin: 0 auto; padding: 1.5rem 1rem; }
+.login { max-width: 640px; margin: 0 auto; padding: 1.5rem 1rem; }
 .login { display: flex; flex-direction: column; gap: .75rem; margin-top: 20vh; }
 input { padding: .6rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px; }
 button { padding: .5rem 1rem; font-size: 1rem; border: 0; border-radius: 6px; background: #222; color: #fff; cursor: pointer; }
 .error { color: #c00; margin: 0; }
-.block { background: #fff; border: 1px solid #e3e3e3; border-radius: 8px; padding: .75rem 1rem; margin-bottom: 1rem; }
-.block header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
-.block h2 { font-size: 1.1rem; margin: 0; }
-.block pre { white-space: pre-wrap; word-break: break-word; font-family: inherit; margin: .75rem 0 0; }
+.grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 1rem; }
+.card { aspect-ratio: 1 / 1; display: flex; flex-direction: column; gap: .5rem; background: #fff; border: 1px solid #e3e3e3; border-radius: 10px; padding: .85rem; box-shadow: 0 2px 6px rgba(0,0,0,.08); cursor: pointer; overflow: hidden; transition: box-shadow .15s, transform .15s; }
+.card:hover, .card:focus-visible { box-shadow: 0 6px 14px rgba(0,0,0,.15); transform: translateY(-2px); outline: none; }
+.card h2 { font-size: 1.05rem; margin: 0; }
+.card .preview { flex: 1; margin: 0; overflow: hidden; font-size: .85rem; color: #555; white-space: pre-wrap; word-break: break-word; }
+.card button { width: 100%; }
+.overlay { position: fixed; inset: 0; background: rgba(0,0,0,.5); display: flex; align-items: center; justify-content: center; padding: 1rem; z-index: 10; }
+.modal { background: #fff; border-radius: 10px; padding: 1rem 1.25rem; width: 100%; max-width: 700px; max-height: 85vh; overflow: auto; }
+.modal header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.modal h2 { margin: 0; font-size: 1.2rem; }
+.modal .actions { display: flex; gap: .5rem; }
+.modal pre { white-space: pre-wrap; word-break: break-word; font-family: inherit; margin: .75rem 0 0; }
+button.secondary { background: #777; }
+@media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 640px) { .grid { grid-template-columns: 1fr; } .card { aspect-ratio: auto; } }
