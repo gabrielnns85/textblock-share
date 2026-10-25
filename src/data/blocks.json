@@ -1,0 +1,5 @@
+[
+  { "id": "greeting", "name": "Greeting", "text": "Hello! Thanks for reaching out." },
+  { "id": "address", "name": "Address", "text": "123 Example Street\nSpringfield, 00000" },
+  { "id": "signature", "name": "Signature", "text": "Best regards,\nYour Name" }
+]
