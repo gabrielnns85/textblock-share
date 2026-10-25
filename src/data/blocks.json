@@ -1,92 +1,17 @@
 [
-  { "id": "001", "name": "Avaliação Inicial Emergência", "text": "AVALIAÇÃO DE ENTRADA EM URGÊNCIA E EMERGÊNCIA
-Avalio e admito paciente em sala de emergência, proveniente do _______ em _______
-Paciente desacompanhado(a)
-
-#HISTÓRICO CLÍNICO#
-Equipe de atendimento pré-hospitalar relata 
-Paciente relata
-Nega febre
-Nega demais sinais e sintomas.
-
-#ANTECEDENTES PESSOAIS#
-Nega alergias
-Nega comorbidades de base
-Nega tabagismo e etilismo
-
-#MEDICAÇÃO DE USO CONTÍNUO#
-
-
-
-#AVALIAÇÃO DE EXAME FÍSICO#
-
-SSVV: PA x mmHg || FC bpm || Sat O2% || FR ipm || DX || T ºC
-
-#EXAMES DE PROTOCOLOS REALIZADOS#
-(__/__/2026) 1° ECG às __:__ horas: Ritmo sinusal. Alterações difusas da repolarização ventricular.
-Não são necessários em primeiro momento segundo os critérios de urgência e emergência .
-
-#HIPÓTESE DIAGNÓSTICA#
-
-
-
-#CONDUTA#
-Paciente com estabilidade hemodinâmica sem critérios para seguimento e condução pelo setor de Urgência e Emergência 
-Encaminho paciente para seguimento e avaliação via ambulatorial com Clínica Médica em porta desta presente Unidade de Saúde em cadeira de rodas.
-Reavaliação se intercorrências e/ou desestabilização de sinais vitais com risco de vida associado
-
-#EVOLUÇÃO#
-
-" },
-  { "id": "002", "name": "Evolução Emergência", "text": "EVOLUÇÃO EM URGÊNCIA E EMERGÊNCIA
-Assumo plantão na unidade no setor de urgência e emergência às 7h / 19h.
-avalio paciente às __:__h
-
-#HISTÓRICO CLÍNICO#
-
-#ANTECEDENTES PESSOAIS#
-Nega alergias
-Nega comorbidades de base
-Nega tabagismo e etilismo
-
-#MEDICAÇÃO DE USO CONTÍNUO#
-
-
-
-#EVOLUÇÃO#
-
-SSVV: PA x mmHg || FC bpm || Sat O2% || FR ipm || DX || T ºC
-
-#AVALIAÇÃO DE EXAME FÍSICO#
-
-
-#LABORATORIAIS#
-(__/__/26): HMG: HB || HT || LEUCO || PLAQ || GLICOSE || URÉIA || CREAT  || Na || K || Mg || Ca || Cl || TGO || TGP || BILIRRUBINA TOTAL / INDIRETA / DIRETA || GGT || AMILASE || LIPASE || FOS ALC  || LACT || TTPA || TAP / INR || CK || CK-MB || PCR 
-(__/__/26) URINA 1: NITRITO () || LEUCO || HMT  || CELs EPITELIAIS ()
-(__/__/26) __:__H: TROPONINA
-(__/__/26): GASOMETRIA VENOSA pH  || pCO2  || pO2  || HCO3 
-(__/__/26) __:__H - GASOMETRIA ARTERIAL pH  || pCO2  || pO2   || HCO3  || BE  || K  || Na  || Cl  || Ca  || LACT
-
-#EXAME DE IMAGEM#
--
-(__/__/26):
-
-#MEDICAÇÕES EM USO NA UNIDADE#
-
-
-
-#HIPÓTESE DIAGNÓSTICA#
-
-
-
-#CONDUTA#
-
-" },
-  { "id": "003", "name": "Exames", "text": "LABORATORIAIS
-(__/__/26): HMG: HB || HT || LEUCO || PLAQ || GLICOSE || URÉIA || CREAT  || Na || K || Mg || Ca || TGO || TGP || BILIRRUBINA TOTAL / INDIRETA / DIRETA || GGT || AMILASE || LIPASE || FOS ALC  || LACT || TTPA || TAP / INR || CK || CK-MB || PCR 
-(__/__/26)  __:__H: TROPONINA 
-(__/__/26) URINA 1: NITRITO () || LEUCO || HMT  || CELs EPITELIAIS ()
-(__/__/26): GASOMETRIA VENOSA pH  || pCO2  || pO2  || HCO3 
-(__/__/26) __:__H - GASOMETRIA ARTERIAL pH  || pCO2  || pO2   || HCO3  || BE  || K  || Na  || Cl  || Ca  || LACT
-" }
+  {
+    "id": "001",
+    "name": "Avaliação Inicial Emergência",
+    "text": "AVALIAÇÃO DE ENTRADA EM URGÊNCIA E EMERGÊNCIA\nAvalio e admito paciente em sala de emergência, proveniente do _______ em _______\nPaciente desacompanhado(a)\n\n#HISTÓRICO CLÍNICO#\nEquipe de atendimento pré-hospitalar relata\nPaciente relata\nNega febre\nNega demais sinais e sintomas.\n\n#ANTECEDENTES PESSOAIS#\nNega alergias\nNega comorbidades de base\nNega tabagismo e etilismo\n\n#MEDICAÇÃO DE USO CONTÍNUO#\n\n\n\n#AVALIAÇÃO DE EXAME FÍSICO#\n\nSSVV: PA x mmHg || FC bpm || Sat O2% || FR ipm || DX || T ºC\n\n#EXAMES DE PROTOCOLOS REALIZADOS#\n(__/__/2026) 1° ECG às __:__ horas: Ritmo sinusal. Alterações difusas da repolarização ventricular.\nNão são necessários em primeiro momento segundo os critérios de urgência e emergência .\n\n#HIPÓTESE DIAGNÓSTICA#\n\n\n\n#CONDUTA#\nPaciente com estabilidade hemodinâmica sem critérios para seguimento e condução pelo setor de Urgência e Emergência\nEncaminho paciente para seguimento e avaliação via ambulatorial com Clínica Médica em porta desta presente Unidade de Saúde em cadeira de rodas.\nReavaliação se intercorrências e/ou desestabilização de sinais vitais com risco de vida associado\n\n#EVOLUÇÃO#\n"
+  },
+  {
+    "id": "002",
+    "name": "Evolução Emergência",
+    "text": "EVOLUÇÃO EM URGÊNCIA E EMERGÊNCIA\nAsumo plantão na unidade no setor de urgência e emergência às 7h / 19h.\navalio paciente às __:__h\n\n#HISTÓRICO CLÍNICO#\n\n#ANTECEDENTES PESSOAIS#\nNega alergias\nNega comorbidades de base\nNega tabagismo e etilismo\n\n#MEDICAÇÃO DE USO CONTÍNUO#\n\n\n\n#EVOLUÇÃO#\n\nSSVV: PA x mmHg || FC bpm || Sat O2% || FR ipm || DX || T ºC\n\n#AVALIAÇÃO DE EXAME FÍSICO#\n\n\n#LABORATORIAIS#\n(__/__/26): HMG: HB || HT || LEUCO || PLAQ || GLICOSE || URÉIA || CREAT  || Na || K || Mg || Ca || Cl || TGO || TGP || BILIRRUBINA TOTAL / INDIRETA / DIRETA || GGT || AMILASE || LIPASE || FOS ALC[...]\n(__/__/26) URINA 1: NITRITO () || LEUCO || HMT  || CELs EPITELIAIS ()\n(__/__/26) __:__H: TROPONINA\n(__/__/26): GASOMETRIA VENOSA pH  || pCO2  || pO2  || HCO3\n(__/__/26) __:__H - GASOMETRIA ARTERIAL pH  || pCO2  || pO2   || HCO3  || BE  || K  || Na  || Cl  || Ca  || LACT\n\n#EXAME DE IMAGEM#\n-\n(__/__/26):\n\n#MEDICAÇÕES EM USO NA UNIDADE#\n\n\n\n#HIPÓTESE DIAGNÓSTICA#\n\n\n\n#CONDUTA#\n"
+  },
+  {
+    "id": "003",
+    "name": "Exames",
+    "text": "LABORATORIAIS\n(__/__/26): HMG: HB || HT || LEUCO || PLAQ || GLICOSE || URÉIA || CREAT  || Na || K || Mg || Ca || TGO || TGP || BILIRRUBINA TOTAL / INDIRETA / DIRETA || GGT || AMILASE || LIPASE || FOS ALC  || L[...]\n(__/__/26)  __:__H: TROPONINA\n(__/__/26) URINA 1: NITRITO () || LEUCO || HMT  || CELs EPITELIAIS ()\n(__/__/26): GASOMETRIA VENOSA pH  || pCO2  || pO2  || HCO3\n(__/__/26) __:__H - GASOMETRIA ARTERIAL pH  || pCO2  || pO2   || HCO3  || BE  || K  || Na  || Cl  || Ca  || LACT\n"
+  }
 ]
